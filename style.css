@@ -1,0 +1,54 @@
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+th,td{
+    height: 9vh;
+    width: 9vh;
+}
+
+.table
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body
+{
+    margin: 0px;
+}
+
+
+td:hover
+{
+    background-color: lightgray;
+}
+
+.extra, .extra:hover
+{
+    border: none;
+    border: 0px solid white;
+    background-color: white;
+    text-align: center;
+}
+
+img{
+    width: 90%;
+    height: 90%;
+    z-index: -1;
+}
+
+body
+{
+    user-select: none;
+}

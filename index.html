@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "table">
+        <table>
+            <tr class="extra">
+                <td class="extra"></td>
+                <td class="extra">a</td>
+                <td class="extra">b</td>
+                <td class="extra">c</td>
+                <td class="extra">d</td>
+                <td class="extra">e</td>
+                <td class="extra">f</td>
+                <td class="extra">g</td>
+                <td class="extra">h</td>
+                <td class="extra"></td>
+            </tr>
+            <tr class = "col8">
+                <td class="extra">8</td>
+                <td class = "rowa" id = "a8" ><img class ="black-piece" src="piese/tura-negru.png" id="tura-negru1"  ></td>
+                <td class = "rowb" id = "b8" ><img class ="black-piece" src="piese/cal-negru.png" id = "cal-negru1"     ></td>
+                <td class = "rowc" id = "c8" ><img class ="black-piece" src="piese/nebun-negru.png" id = "nebun-negru1"     ></td>
+                <td class = "rowd" id = "d8" ><img class ="black-piece" src="piese/regina-negru.png"id = "regina-negru"    ></td>
+                <td class = "rowe" id = "e8" ><img class ="black-piece" src="piese/rege-negru.png" id = "rege-negru"     ></td>
+                <td class = "rowf" id = "f8" ><img class ="black-piece" src="piese/nebun-negru.png" id = "nebun-negru2"     ></td>
+                <td class = "rowg" id = "g8" ><img class ="black-piece" src="piese/cal-negru.png" id="cal-negru2"     ></td>
+                <td class = "rowh" id = "h8" ><img class ="black-piece" src="piese/tura-negru.png" id = "tura-negru2"     ></td>
+                <td class="extra">8</td>
+            </tr>
+            <tr class = "col7">
+                <td class="extra">7</td>
+                <td class = "rowa" id = "a7" ><img class ="black-piece" src="piese/pion-negru.png" id="pion-negru1"></td>
+                <td class = "rowb" id = "b7" ><img class ="black-piece" src="piese/pion-negru.png" id="pion-negru2"></td>
+                <td class = "rowc" id = "c7" ><img class ="black-piece" src="piese/pion-negru.png" id="pion-negru3"></td>
+                <td class = "rowd" id = "d7" ><img class ="black-piece" src="piese/pion-negru.png" id="pion-negru4"></td>
+                <td class = "rowe" id = "e7" ><img class ="black-piece" src="piese/pion-negru.png" id="pion-negru5"></td>
+                <td class = "rowf" id = "f7" ><img class ="black-piece" src="piese/pion-negru.png" id="pion-negru6"></td>
+                <td class = "rowg" id = "g7" ><img class ="black-piece" src="piese/pion-negru.png" id="pion-negru7"></td>
+                <td class = "rowh" id = "h7" ><img class ="black-piece" src="piese/pion-negru.png" id="pion-negru8"></td>
+                <td class="extra">7</td>
+            </tr>
+            <tr class = "col6">
+                <td class="extra">6</td>
+                <td class = "rowa" id = "a6"  ></td>
+                <td class = "rowb" id = "b6"  ></td>
+                <td class = "rowc" id = "c6"  ></td>
+                <td class = "rowd" id = "d6"  ></td>
+                <td class = "rowe" id = "e6"  ></td>
+                <td class = "rowf" id = "f6"  ></td>
+                <td class = "rowg" id = "g6"  ></td>
+                <td class = "rowh" id = "h6"  ></td>
+                <td class="extra">6</td>
+            </tr>
+            <tr class = "col5">
+                <td class="extra">5</td>
+                <td class = "rowa"id = "a5"  ></td>
+                <td class = "rowb"id = "b5"  ></td>
+                <td class = "rowc"id = "c5"  ></td>
+                <td class = "rowd"id = "d5"  ></td>
+                <td class = "rowe"id = "e5"  ></td>
+                <td class = "rowf"id = "f5"  ></td>
+                <td class = "rowg"id = "g5"  ></td>
+                <td class = "rowh"id = "h5"  ></td>
+                <td class="extra">5</td>
+            </tr>
+            <tr class = "col4">
+                <td class="extra">4</td>
+                <td class = "rowa"id = "a4"  ></td>
+                <td class = "rowb"id = "b4"  ></td>
+                <td class = "rowc"id = "c4"  ></td>
+                <td class = "rowd"id = "d4"  ></td>
+                <td class = "rowe"id = "e4"  ></td>
+                <td class = "rowf"id = "f4"  ></td>
+                <td class = "rowg"id = "g4"  ></td>
+                <td class = "rowh"id = "h4"  ></td>
+                <td class="extra">4</td>
+            </tr>
+            <tr class = "col3">
+                <td class="extra">3</td>
+                <td class = "rowa" id = "a3"  ></td>
+                <td class = "rowb" id = "b3"  ></td>
+                <td class = "rowc" id = "c3"  ></td>
+                <td class = "rowd" id = "d3"  ></td>
+                <td class = "rowe" id = "e3"  ></td>
+                <td class = "rowf" id = "f3"  ></td>
+                <td class = "rowg" id = "g3"  ></td>
+                <td class = "rowh" id = "h3"  ></td>
+                <td class="extra">3</td>
+            </tr>
+            <tr class = "col2">
+                <td class="extra">2</td>
+                <td class = "rowa" id = "a2"><img class="white-piece" src="piese/pion-alb.png" alt=""   id = "pion-alb1"></td>
+                <td class = "rowb" id = "b2"><img class="white-piece" src="piese/pion-alb.png" alt=""   id = "pion-alb2"></td>
+                <td class = "rowc" id = "c2"><img class="white-piece" src="piese/pion-alb.png" alt=""   id = "pion-alb3"></td>
+                <td class = "rowd" id = "d2"><img class="white-piece" src="piese/pion-alb.png" alt=""   id = "pion-alb4"></td>
+                <td class = "rowe" id = "e2"><img class="white-piece" src="piese/pion-alb.png" alt=""   id = "pion-alb5"></td>
+                <td class = "rowf" id = "f2"><img class="white-piece" src="piese/pion-alb.png" alt=""   id = "pion-alb6"></td>
+                <td class = "rowg" id = "g2"><img class="white-piece" src="piese/pion-alb.png" alt=""   id = "pion-alb7"></td>
+                <td class = "rowh" id = "h2"><img class="white-piece" src="piese/pion-alb.png" alt=""   id = "pion-alb8"></td>
+                <td class="extra">2</td>
+            </tr>
+            <tr class = "col1">
+                <td class="extra">1</td>
+                <td class = "rowa"id = "a1"><img class="white-piece" src="piese/tura-alb.png" alt=""   id="tura-alb1"></td>
+                <td class = "rowb"id = "b1"><img class="white-piece" src="piese/cal-alb.png" alt=""   id = "cal-alb1"></td>
+                <td class = "rowc"id = "c1"><img class="white-piece" src="piese/nebun-alb.png" alt=""   id = "nebun-alb1"></td>
+                <td class = "rowd"id = "d1"><img class="white-piece" src="piese/regina-alb.png" alt=""   id = "regina-alb"></td>
+                <td class = "rowe"id = "e1"><img class="white-piece" src="piese/rege-alb.png" alt=""   id = "rege-alb"></td>
+                <td class = "rowf"id = "f1"><img class="white-piece" src="piese/nebun-alb.png" alt=""   id = "nebun-alb2"></td>
+                <td class = "rowg"id = "g1"><img class="white-piece" src="piese/cal-alb.png" alt=""   id = "cal-alb2"></td>
+                <td class = "rowh"id = "h1"><img class="white-piece" src="piese/tura-alb.png" alt=""   id = "tura-alb2"></td>
+                <td class="extra">1</td>
+            </tr>
+            <tr class="extra">
+                <td class="extra"></td>
+                <td class="extra">a</td>
+                <td class="extra">b</td>
+                <td class="extra">c</td>
+                <td class="extra">d</td>
+                <td class="extra">e</td>
+                <td class="extra">f</td>
+                <td class="extra">g</td>
+                <td class="extra">h</td>
+                <td class="extra"></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
